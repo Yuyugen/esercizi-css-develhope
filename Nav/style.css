@@ -1,0 +1,72 @@
+nav {
+  background-color: rgb(44, 44, 69);
+  display: flex;
+  flex-direction: row;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.title {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+a,
+h1 {
+  color: white;
+  text-decoration: none;
+}
+
+.dropdown {
+  background-color: transparent;
+  border-style: none;
+  color: white;
+  font-size: medium;
+}
+
+.disabled {
+  color: gray;
+}
+
+option {
+  color: black;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+ul {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  position: relative;
+  left: -30px;
+}
+
+.search-container {
+  margin-top: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 30px;
+}
+
+.searchbar {
+  height: 30px;
+  border-radius: 5px;
+}
+
+.searchbutton {
+  height: 30px;
+  background-color: transparent;
+  color: rgb(15, 211, 119);
+  border-color: rgb(15, 211, 119);
+  border-radius: 5px;
+}
+
+.searchbutton:hover {
+  height: 30px;
+  background-color: rgb(15, 211, 119);
+  color: white;
+  border-color: rgb(15, 211, 119);
+  border-radius: 5px;
+}
