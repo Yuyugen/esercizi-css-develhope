@@ -1,0 +1,56 @@
+.calculator__container {
+  display: grid;
+  background-color: rgb(66, 66, 66);
+  width: 20rem;
+  border-radius: 0.5rem;
+}
+
+.calculator__display {
+  padding-right: 1rem;
+  text-align: right;
+}
+
+.calculator__display > p {
+  color: white;
+}
+
+.calculator__buttons {
+  display: grid;
+  grid-gap: 0.1rem;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.calculator__buttons__number,
+.calculator__buttons__operator,
+.calculator__buttons__equals,
+.calculator__buttons__dot,
+.calculator__buttons__ac {
+  background-color: lightgrey;
+}
+
+.calculator__buttons__number,
+.calculator__buttons__operator,
+.calculator__buttons__equals,
+.calculator__buttons__dot,
+.calculator__buttons__ac {
+  text-align: center;
+}
+
+.calculator__buttons__number,
+.calculator__buttons__ac,
+.calculator__buttons__dot {
+  background-color: white;
+}
+
+.calculator__buttons__equals {
+  grid-row-start: 2;
+  grid-column-start: 4;
+  grid-row-end: 6;
+  background-color: rgb(239, 116, 116);
+}
+
+.calculator__buttons__equals > p {
+  position: relative;
+  top: 3.3rem;
+  font-size: 2rem;
+}
