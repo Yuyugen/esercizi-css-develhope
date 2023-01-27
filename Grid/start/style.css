@@ -3,6 +3,7 @@
   background-color: rgb(66, 66, 66);
   width: 20rem;
   border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .calculator__display {
