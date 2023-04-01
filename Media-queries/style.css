@@ -89,14 +89,14 @@ body {
   margin: 0rem;
 }
 
-@media (max-width: 375px) {
+@media screen and (max-width: 768px) {
   body {
-    grid-template-columns: auto;
+    grid-template-columns: auto auto;
   }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 375px) {
   body {
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
   }
 }
